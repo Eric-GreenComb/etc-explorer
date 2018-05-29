@@ -73,5 +73,11 @@ If you run
 
 it will also start sync.js and start syncing the blockchain based on set parameters. NOTE running app.js will always start sync.js keep listening and syncing the latest block.
 
+Start the webpage with
+
+  'node app.js'
+
+then you will see the site on http://localhost:3000.
+
 You can leave sync.js running without app.js and it will sync and grab blocks based on config.json parameters
 `node ./tools/sync.js`
