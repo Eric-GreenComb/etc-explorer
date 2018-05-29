@@ -1,14 +1,12 @@
-# ETCExplorer
+# Ethereum Classic Explorer
 
-<b>Live Version: [etherhub.io](http://etherhub.io)</b>
-
-Follow the project progress at: [ETC Block Explorer Development](https://github.com/ethereumproject/explorer)
+<b>Live Version: [classicexplorer.org](https://classicexplorer.org)</b>
 
 ## Local installation
 
 Clone the repo
 
-`git clone https://github.com/ethereumproject/explorer`
+`git clone https://github.com/chainkorea/etc-explorer`
 
 Download [Nodejs and npm](https://docs.npmjs.com/getting-started/installing-node "Nodejs install") if you don't have them
 
@@ -52,12 +50,19 @@ Basic settings:
 ```
 
 ```nodeAddr```    Your node API RPC address.
+
 ```gethPort```    Your node API RPC port.
+
 ```startBlock```  This is the start block of the blockchain, should always be 0 if you want to sync the whole ETC blockchain.
+
 ```endBlock```    This is usually the 'latest'/'newest' block in the blockchain, this value gets updated automatically, and will be used to patch missing blocks if the whole app goes down.
+
 ```quiet```       Suppress some messages. (admittedly still not quiet)
+
 ```syncAll```     If this is set to true at the start of the app, the sync will start syncing all blocks from lastSync, and if lastSync is 0 it will start from whatever the endBlock or latest block in the blockchain is.
-```patch```       If set to true and below value is set, sync will iterated through the # of blocks specified
+
+```patch```       If set to true and below value is set, sync will iterated through the # of blocks specified.
+
 ```patchBlocks``` If `patch` is set to true, the amount of block specified will be check from the latest one.
 
 
