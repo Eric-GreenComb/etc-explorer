@@ -1,15 +1,21 @@
 {
     "nodeAddr":     "localhost",
-    "gethPort":     8545,
+    "gethPort":     8540,
     "startBlock":   0,
+    "endBlock":     "latest",
     "quiet":        true,
     "syncAll":      true,
     "patch":        true,
     "patchBlocks":  100,
+    "bulkSize":     100,
     "settings": {
-        "symbol": "ETC",
-        "name": "Ethereum Classic",
-        "title": "Ethereum Classic Block Explorer",
-        "author": "Elaine"
+        "symbol": "Eric",
+        "name": "Ethereum Eric",
+        "title": "Ethereum Blockchain Explorer",
+        "author": "Eric",
+        "miners": {
+            "0x762009cd5dcabb5a125008d70f5efdbdff2aa782": "MyMiner",
+            "0xd144e30a0571aaf0d0c050070ac435deba461fab": "Clona Network"
+         }
     }
 }

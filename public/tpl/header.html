@@ -1,14 +1,14 @@
 <!-- BEGIN HEADER TOP -->
 <div class="page-header-top">
     <div class="container">
-    <!-- BEGIN LOGO -->
-    <div class="page-logo">
-        <a href="/">
-            <img src="/img/explorer-logo.png" alt="logo" class="logo-default" />
-        </a>
-    </div>
-    <!-- END LOGO -->
-            <!-- BEGIN RESPONSIVE MENU TOGGLER -->
+        <!-- BEGIN LOGO -->
+        <div class="page-logo">
+            <a href="/">
+                <img src="/img/explorer-logo.png" alt="logo" class="logo-default" />
+            </a>
+        </div>
+        <!-- END LOGO -->
+        <!-- BEGIN RESPONSIVE MENU TOGGLER -->
         <a href="javascript:;" class="menu-toggler btn btn-sm green-haze btn-outline">MENU</a>
         <!-- END RESPONSIVE MENU TOGGLER -->
         <!-- BEGIN TOP NAVIGATION MENU -->
@@ -17,7 +17,8 @@
                 <li class="dropdown">
                     <form name="form.searchForm" class="search-form">
                         <div class="input-group">
-                            <input type="text" name="explorerSearch" class="form-control" placeholder="Search by Address / Txhash / BlockNum / BlockHash" ng-model="form.searchInput" ng-keyup="$event.keyCode == 13 ? searchQuery(form.searchInput) : null">
+                            <input type="text" name="explorerSearch" class="form-control" placeholder="Search by Address / Txhash / BlockNum / BlockHash"
+                                ng-model="form.searchInput" ng-keyup="$event.keyCode == 13 ? searchQuery(form.searchInput) : null">
                             <span class="input-group-btn">
                                 <a class="btn" ng-click="searchQuery(form.searchInput)">
                                     <i class="icon-magnifier"></i>
@@ -45,7 +46,8 @@
                     <a href="/">Home</a>
                 </li>
                 <li class="menu-dropdown mega-menu-dropdown ">
-                    <a data-hover="megamenu-dropdown" data-close-others="true" data-toggle="dropdown" href="/token" class="dropdown-toggle"> Tokens
+                    <a data-hover="megamenu-dropdown" data-close-others="true" data-toggle="dropdown" href="/token" class="dropdown-toggle">
+                    Tokens
                         <i class="fa fa-angle-down"></i>
                     </a>
                     <ul class="dropdown-menu" style="min-width: 410px">
@@ -83,7 +85,8 @@
                     </ul>
                 </li>
                 <li class="menu-dropdown mega-menu-dropdown ">
-                    <a data-hover="megamenu-dropdown" data-close-others="true" data-toggle="dropdown" href="javascript:;" class="dropdown-toggle"> Stats
+                    <a data-hover="megamenu-dropdown" data-close-others="true" data-toggle="dropdown" href="javascript:;" class="dropdown-toggle">
+                    Stats
                         <i class="fa fa-angle-down"></i>
                     </a>
                     <ul class="dropdown-menu">
@@ -134,16 +137,16 @@
                     </a>
                     <ul class="dropdown-menu pull-left">
                         <li>
-                          <a href="https://forum.ethereumclassic.org" target="_blank">
-                              <i class="fa fa-group"></i>
-                              <span class="title" data-toggle="tooltip" title="Community Chat"> The Forum</span>
-                          </a>
+                            <a href="https://forum.ethereumclassic.org" target="_blank">
+                                <i class="fa fa-group"></i>
+                                <span class="title" data-toggle="tooltip" title="Community Chat"> The Forum</span>
+                            </a>
                         </li>
                         <hr>
                         <li>
                             <a href="https://tokenmint.io" target="_blank">
                                 <i class="fa fa-leaf"></i>
-                                <span class="title" data-toggle="tooltip" title="ERC223 Token Factory" > TokenMint.io</span>
+                                <span class="title" data-toggle="tooltip" title="ERC223 Token Factory"> TokenMint.io</span>
                             </a>
                         </li>
                         <li>
